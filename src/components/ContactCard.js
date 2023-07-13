@@ -1,7 +1,7 @@
 import React from "react";
 
 const CardContact = (props) =>{
-    const { id, name, email} = props.val;
+    const { name, email} = props.val;
     return(
         <div className="item">
             <div className="content">
