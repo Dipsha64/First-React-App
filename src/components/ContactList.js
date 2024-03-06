@@ -1,7 +1,7 @@
 import React from "react";
 import ContactCard from "./ContactCard";
 
-const  ContactList = (props) =>{
+const ContactList = (props) =>{
     console.log("props..",props);
 
     const renderContactList = props.contact.map((val)=>{
